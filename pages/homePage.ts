@@ -8,7 +8,7 @@ export class HomePage {
 
 
   async declineCookies() {
-    await this.granularBannerButton().click({ button: 'right' });
+    // await this.granularBannerButton().click({ button: 'right' });
     await this.granularBannerButton().click();
   }
 
