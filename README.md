@@ -11,6 +11,8 @@ Using Playwright, we will create a test automation framework :
 ## 2. Initialize node project and install playwright
 
 npm install
+
+
 npx playwright install
 
 ## THANK YOU 🙂
