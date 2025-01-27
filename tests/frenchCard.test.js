@@ -24,4 +24,6 @@ test('Verify the french card', async ({ page }) => {
   
   await formPage.fillForm(formData);  
   await formPage.submitForm();
+  await formPage.verifyErrorMessage('Prénom obligatoire.');
+  await formPage.verifySubmitErrorMessage();
 })
