@@ -1,18 +1,19 @@
+# Playwright Test Automation Framework  
 
-Using Playwright, we will create a test automation framework :
+This repository contains an automated testing framework using **Playwright** with the **Page Object Model (POM)** pattern.  
 
-- The Page Object Model is a pattern
+## 🚀 Getting Started  
 
-### Note: 
+Follow these steps to set up the framework.  
 
-## 🚀 Lets get started...
+### 1️⃣ Create a Repository  
+- Create an empty repository (e.g., on GitHub).  
+- Clone the repository to your local machine.  
 
-## 1. Create an empty repo in VS (e.g. GitHub) and clone
-## 2. Initialize node project and install playwright
+### 2️⃣ Initialize a Node.js Project & Install Playwright  
+Run the following commands to set up the project:  
 
-npm install
-
-
-npx playwright install
-
-## THANK YOU 🙂
+```sh
+npm init -y  # Initialize a Node.js project  
+npm install  # Install dependencies  
+npx playwright install  # Install Playwright browsers  
